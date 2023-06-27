@@ -2,13 +2,12 @@
     height: 3.5rem;
     border: 1px solid black;
     align-items: center;
+    display: flex;
 }
 #social_container{
-    width: fit-content;
-    max-height: 3.5rem;
-    border: 1px solid black;
     display: flex;
-    
+    align-items:flex-start;
+    float: left;
 }
 .socialmedia{
     width: fit-content;
@@ -29,5 +28,11 @@
     width: 2.5rem;
 }
 #weather{
-
+    display: flex;
+    margin-left: auto ;
+    margin-right:2.4em;
+    width: 100px;
+}
+#weather2{  /*IMG file's tag */
+    height: 3em;
 }
