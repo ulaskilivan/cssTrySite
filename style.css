@@ -1,1 +1,28 @@
-
+#infobar{
+    height: 3.5rem;
+    border: 1px solid black;
+}
+#social_container{
+    width: fit-content;
+    max-height: 3.5rem;
+    border: 1px solid black;
+    display: flex;
+}
+.socialmedia{
+    width: fit-content;
+    max-height: 3.5rem;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+}
+#twitter_logo{
+    margin-top:1px ;
+    width: 2.9rem;
+    align-items: center;
+}
+#facebook_logo{
+    width: 2.5rem;
+}
+#instagram_logo{
+    width: 2.5rem;
+}
