@@ -1,12 +1,14 @@
 #infobar{
     height: 3.5rem;
     border: 1px solid black;
+    align-items: center;
 }
 #social_container{
     width: fit-content;
     max-height: 3.5rem;
     border: 1px solid black;
     display: flex;
+    
 }
 .socialmedia{
     width: fit-content;
@@ -25,4 +27,7 @@
 }
 #instagram_logo{
     width: 2.5rem;
+}
+#weather{
+
 }
