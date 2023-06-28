@@ -1,10 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #infobar{
     height: 3.5rem;
-    border: 1px solid bisque;
-    align-items: center;
+    width: 90%;
+    border: 1px solid #EDF5E1;
+    margin: 0 auto;
     display: flex;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: #EDF5E1;
 }
 #social_container{/*container that contains 3 logo*/
     display: flex;
@@ -27,18 +32,95 @@
     width: 2.8rem;
      padding: 2px; margin: 1px; margin-left: 10px;
 }
-#weather{
+#weather{ /*This is belong to weather's div*/
     display: flex;
     margin-left: auto ;
     margin-right:4em;
     width: 100px;
 }
-#weather2{  /*IMG file's tag */
+#weather2{  /*Weather IMG file's Tag*/
     height: 3em;
+    margin-top: 0.2em;
 }
 .social:hover{
     background: gainsboro;
 }
 .social:active{
     background: rgb(202, 235, 235);
+}
+
+nav{
+    width: 90%; height: 4em;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    background:#5CDB95;
+}
+.button{
+    font-size:2em ;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    padding: 12px;
+    color: #05386B;
+    text-decoration: none;
+}
+.button:hover{
+    color: #5CDB95;
+    background: #05386B;
+}
+.button:active{
+    background-color: #194672;
+}
+#subBody{
+    width: 90%;
+    height: 1000px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #infobar{
+        width: 100%;
+    }
+    #twitter_logo{
+        height: 2.4rem;
+        width: fit-content;
+    }
+    #facebook_logo{
+        width: 2.5rem;
+        padding: 2px; margin: 1px; 
+    
+    }
+    #instagram_logo{
+        width: 2.5rem;
+        padding: 2px; margin: 1px; margin-left: 10px;
+    }
+    #social_container{/*container that contains 3 logo*/
+        margin-left: 0;
+    }
+    #weather{ /*This is belong to weather's div*/
+        margin-right:2.5em;
+    }
+    .button{
+        font-size: 1.2em;
+        padding: 15px;
+        border-radius:15px ;
+    }
+    nav{
+        width: 100%;
+    }
 }
