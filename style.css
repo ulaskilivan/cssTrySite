@@ -1,38 +1,44 @@
 #infobar{
     height: 3.5rem;
-    border: 1px solid black;
+    border: 1px solid bisque;
     align-items: center;
     display: flex;
+    border-radius: 10px;
+    background-color: bisque;
 }
-#social_container{
+#social_container{/*container that contains 3 logo*/
     display: flex;
     align-items:flex-start;
-    float: left;
-}
-.socialmedia{
-    width: fit-content;
-    max-height: 3.5rem;
-    border: 1px solid black;
-    padding: 3px;
-    margin: 2px;
+    margin-left: 1em;
+    /* border: 1px solid black; */
 }
 #twitter_logo{
     margin-top:1px ;
-    width: 2.9rem;
-    align-items: center;
+    height: 2.5rem;
+    width: fit-content;
+     padding: 2px; margin-top: 3px; margin-left: 10px;
 }
 #facebook_logo{
-    width: 2.5rem;
+    width: 2.8rem;
+     padding: 2px; margin: 1px; 
+
 }
 #instagram_logo{
-    width: 2.5rem;
+    width: 2.8rem;
+     padding: 2px; margin: 1px; margin-left: 10px;
 }
 #weather{
     display: flex;
     margin-left: auto ;
-    margin-right:2.4em;
+    margin-right:4em;
     width: 100px;
 }
 #weather2{  /*IMG file's tag */
     height: 3em;
+}
+.social:hover{
+    background: gainsboro;
+}
+.social:active{
+    background: rgb(202, 235, 235);
 }
