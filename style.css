@@ -97,17 +97,10 @@ nav{
     height: 200px;
     border: 1px solid aqua;
 }
-
-
-
-
-
-
-
-
-
-
-@media(max-width:500px){
+#agacPic{
+    width: 70%;
+}
+@media(max-width:690px){
     #infobar{
         width: 100%;
     }
