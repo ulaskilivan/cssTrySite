@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background: #c1e9d0 ;
+}
 #infobar{
     height: 3.5rem;
     width: 90%;
@@ -76,12 +79,21 @@ nav{
 }
 #subBody{
     width: 90%;
-    height: 1000px;
-    border: 1px solid black;
+    height: fit-content;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
+#projectPic{
+    width: 62%;
+    margin-bottom: 5em;
+    
+}
+#constVid{
+    width: 100%;
+}
+
+/* 
 #section{
     width: 69%;
     height: 800px;
@@ -96,10 +108,17 @@ nav{
     width: 100%;
     height: 200px;
     border: 1px solid aqua;
+} */
+#article{
+    width: 100%;
+    height: 500px;
+    background: #c1e9d0 ;
 }
 #agacPic{
-    width: 70%;
-}
+    width: 30%;
+    margin: 50px;
+    height: auto;
+} 
 @media(max-width:690px){
     #infobar{
         width: 100%;
